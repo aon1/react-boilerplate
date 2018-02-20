@@ -28,7 +28,7 @@ var Weather = React.createClass({
 			});
 		}, function(err) {
 			that.setState({
-				isLoading: true,
+				isLoading: false,
 				errorMessage: err.message
 			});	
 		});
